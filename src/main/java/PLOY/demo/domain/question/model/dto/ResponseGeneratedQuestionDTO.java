@@ -10,6 +10,6 @@ import java.util.List;
 @NoArgsConstructor
 @AllArgsConstructor
 public class ResponseGeneratedQuestionDTO {
-    private String status;
-    private List<GeneratedQuestionDTO> generatedQuestions;
+    private String status;//이거 상태
+    private List<GeneratedQuestionDTO> generatedQuestions;//이건 문제들
 }

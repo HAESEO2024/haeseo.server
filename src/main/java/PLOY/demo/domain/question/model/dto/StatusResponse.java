@@ -7,5 +7,6 @@ import lombok.Data;
 @Data
 @Builder
 public class StatusResponse {
+    //이건 상태
     private String status;
 }
