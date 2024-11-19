@@ -1,4 +1,4 @@
-package PLOY.demo.domain.question.model.dto.response;
+package PLOY.demo.domain.question.model.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -12,7 +12,9 @@ import java.util.List;
 @NoArgsConstructor
 @AllArgsConstructor
 public class GeneratedQuestionDTO {
-    private String questionId;
+    private int id;
+    private int grade;
+    private int questionId;
     private int category;
     private int problemId;
     private String questionTitle;

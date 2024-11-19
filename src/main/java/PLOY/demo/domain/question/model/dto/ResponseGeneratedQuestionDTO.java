@@ -1,4 +1,4 @@
-package PLOY.demo.domain.question.model.dto.response;
+package PLOY.demo.domain.question.model.dto;
 
 
 import lombok.*;
