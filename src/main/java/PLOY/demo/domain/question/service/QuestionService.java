@@ -8,7 +8,7 @@ import java.util.List;
 
 public interface QuestionService {
     //문제를 저장하는 로직
-    StatusResponse saveQuestion(GeneratedQuestionDTO question);
+    StatusResponse saveQuestion(List<GeneratedQuestionDTO> questions);
 
     //문제 보여주는 로직
     List<GeneratedQuestionDTO> getAllQuestions();

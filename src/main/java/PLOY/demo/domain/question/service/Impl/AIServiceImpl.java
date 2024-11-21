@@ -90,7 +90,7 @@ public class AIServiceImpl implements AIService {
 
             // 받은 응답을 JSON으로 변환
             ObjectMapper objectMapper = new ObjectMapper();
-            //이거 잭슨인데 자세한건 문의 ㄱ
+            //이거 잭슨인데 자세한건 문의ㄱ
             List<GeneratedQuestionDTO> generatedQuestions = objectMapper.readValue(responseText, new TypeReference<List<GeneratedQuestionDTO>>() {});
 
             //자동으로 id할당해주기
